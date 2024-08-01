@@ -1,0 +1,26 @@
+.add-recipe-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-recipe-form h1 {
+    margin-bottom: 1rem;
+}
+
+.add-recipe-form form > div {
+    margin-bottom: 1rem;
+}
+
+.add-recipe-form form ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.add-recipe-form form ul li {
+    background: #e0e0e0;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
