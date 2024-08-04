@@ -1,4 +1,3 @@
-// src/components/AddRecipeForm.tsx
 import React, { useState } from 'react';
 import './AddRecipeForm.css';
 
@@ -23,6 +22,15 @@ const AddRecipeForm: React.FC = () => {
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         // Handle form submission, e.g., send data to API
+        const formData = new FormData();
+        formData.append('name', name);
+        formData.append('ingredients', JSON.stringify(ingredients));
+        formData.append('steps', JSON.stringify(steps));
+        if (image) {
+            formData.append('image', image);
+        }
+        // Send formData to the API
+        console.log('Form submitted', { name, ingredients, steps, image });
     };
 
     return (

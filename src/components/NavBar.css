@@ -3,12 +3,12 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #6d93fa;
-    color: white;
+    background-color: #d5def5;
+    color: #333;
   }
   
   .navbar-links a {
-    color: white;
+    color: #333;
     margin-left: 1rem;
     text-decoration: none;
   }

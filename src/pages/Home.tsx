@@ -1,9 +1,14 @@
 import React from 'react';
+import HeroSection from '../components/HeroSection';
+import AddRecipeForm from '../components/AddRecipeForm';
 
 const Home: React.FC = () => {
     return (
         <div>
-            <h1>Welcome to cook-E</h1>
+            <HeroSection />
+            <div id="add-recipe-form-section">
+                <AddRecipeForm />
+            </div>
         </div>
     );
 };
